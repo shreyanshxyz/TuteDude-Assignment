@@ -1,0 +1,245 @@
+.MainDiv {
+  width: 75%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.MainDiv > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.ReferralDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* ----------------------- */
+.ReferralCode > h3 {
+  color: #800080;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.ReferralCode > p {
+  text-align: center;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75rem;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 6px 3px;
+  border: 2px solid rgba(128, 128, 128, 0.315);
+  margin-top: 0px;
+}
+/* ======================== */
+.goBack {
+  display: none;
+}
+/* ------------------------ */
+.Wallet {
+  text-align: left;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0px 20px;
+  height: 70px;
+  margin-top: 20px;
+}
+.Wallet > p {
+  color: #800080;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.Wallet > h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+  .MainDiv {
+    width: 85%;
+  }
+  .goBack {
+    display: flex;
+    align-items: center;
+    color: #800080;
+    gap: 10px;
+  }
+
+  .Wallet {
+    box-shadow: rgba(171, 164, 164, 0.24) 0px 3px 8px;
+    padding: 0px 20px;
+    margin-left: 10px;
+  }
+  .Wallet > p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 1px;
+    width: 100px;
+  }
+
+  .Wallet > h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* ================================================================================== */
+
+.mainDiv {
+  width: 73%;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.mainDiv > h3 {
+  color: #800080;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* ------------------ Card div ---------------- */
+.CardMainDiv {
+  display: flex;
+  gap: 30px;
+  color: #ffffff;
+  width: 100%;
+  overflow: auto;
+}
+
+.CardMainDiv > div {
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 228px;
+  padding: 0px 20px;
+}
+
+.CardNameTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  width: 358px;
+}
+
+.CardNameTime > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.CardNameTime > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.CardNameTime + p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin: 5px;
+}
+
+/* -----------.courses------------- */
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 5px;
+  overflow-x: auto;
+  height: 100px;
+  gap: 0px;
+}
+
+.courses > div {
+  padding: 0px 5px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.courses > div > p {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 1px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  margin: 0px;
+}
+
+.courses + h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+}
+/* ----------Price--------- */
+.courses + h2 > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* ------------------ */
+.footer {
+  color: #800080;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+  .mainDiv {
+    width: 83%;
+  }
+
+  .CardMainDiv {
+    flex-direction: column;
+    margin-left: -10px;
+    overflow: hidden;
+  }
+
+  .CardNameTime {
+    width: 100%;
+  }
+}
+
+/* ------------Scroll------------ */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(181, 172, 172);
+}
